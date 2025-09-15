@@ -121,7 +121,6 @@ grid on; % add grid
 % run monte carlo batches until estimate stabilizes to s sig figs
 % do not compare true pi in stopping rule
 
-clc; % clear environment 
 sig_list = [2,3,4]; % target sig figs to achieve
 batch_size = 1e4; % number of points to simulate per while-iteration
 M = 5; % set M (larger M = more confidence, but takes longer)
